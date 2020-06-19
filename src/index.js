@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Hello from './Hello';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <App name="Mubashir Aslam" age={22} ></App>,
+  <Hello name="Ijaz Serwer" age="23" ></Hello>,
   document.getElementById('root')
 );
 
